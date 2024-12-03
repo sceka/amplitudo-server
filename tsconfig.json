@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "es2017",
+		"module": "commonjs",
+		"lib": ["es6"],
+		"allowJs": true,
+		"outDir": "build",
+		"strict": true,
+		"noImplicitAny": true,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
+		"noFallthroughCasesInSwitch": true,
+		"skipLibCheck": true // TODO: Remove once socket.io get their shit together: https://github.com/socketio/engine.io-parser/issues/136
+	},
+	"include": ["src/**/*"],
+	"paths": {
+		"@/*": ["./src/*"]
+	}
+}
